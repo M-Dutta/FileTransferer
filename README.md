@@ -1,8 +1,6 @@
-Name: Mishuk Dutta
-ID: 811361849
-
-Submission: 
-	    A FT system that can send data over connections. 
+FileTransfer system that can send data over connections. 
+	Allows Threading [CNUM] where CNUM is the number of threads
+	Allows Size specification [SIZE]
 
 Virtual Env Activation:
 	    To activate the virtual enviornment, 
@@ -14,6 +12,5 @@ Running the Submissions:
 	Run receive by 'python3 ftclient.py --server HOST:PORT [-s SIZE] [-p PORT] --receive'
 	Run send by 'python3 ftclient.py --server HOST:PORT [-c CNUM] [-s SIZE] --send ID FILE'
 
-The pdf file is named 'Pj03_Research.pdf'
-The csv file is named 'Data.csv'
+'Pj03_Research.pdf' contains byte/thread optimization data
 
